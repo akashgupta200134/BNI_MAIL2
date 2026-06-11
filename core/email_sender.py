@@ -338,3 +338,7 @@ class EmailSender:
             self.logger.info(f"Screenshot saved: {path}")
         except Exception as e:
             self.logger.warning(f"Could not save screenshot: {e}")
+            
+
+
+                       
