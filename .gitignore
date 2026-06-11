@@ -1,0 +1,19 @@
+# Credentials — NEVER commit this
+.env
+
+# State and logs (don't commit these)
+data/state.json
+logs/
+screenshots/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
